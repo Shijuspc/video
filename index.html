@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduHeart</title>
+  <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+
+<div id="maind" class="light">
+  <div class="flex-container">
+    <div class="sidebar">
+      <a href="#" class="logo">
+        <i icon-name="layers"></i>
+      </a>
+
+      <nav class="my-4 flex-1">
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="nav-link" data-page="home">
+              <div class="icon-wrapper"><i icon-name="home"></i></div>
+              <span class="font-semibold">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link relative" data-page="mail">
+              <div class="icon-wrapper"><i icon-name="mail"></i></div>
+              <span class="font-semibold">Messages</span>
+              <div class="indicator red-indicator"></div>
+            </a>
+          </li>
+          <li class="active">
+            <a href="#" class="nav-link">
+              <div class="icon-wrapper"><i icon-name="inbox"></i></div>
+              <span class="font-semibold">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <div class="icon-wrapper"><i icon-name="gauge"></i></div>
+              <span class="font-semibold">Reports</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <div class="icon-wrapper"><i icon-name="users"></i></div>
+              <span class="font-semibold">Team</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <div class="icon-wrapper"><i icon-name="wallet"></i></div>
+              <span class="font-semibold">Expenses</span>
+            </a>
+          </li>
+          <li class="withDivider">
+            <a href="#" class="nav-link">
+              <div class="icon-wrapper"><i icon-name="life-buoy"></i></div>
+              <span class="font-semibold">Support</span>
+            </a>
+          </li>
+          <li class="mt-auto">
+            <a href="#" class="nav-link relative">
+              <div class="icon-wrapper"><i icon-name="bell"></i></div>
+              <span class="font-semibold">Notifications</span>
+              <div class="indicator blue-indicator"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <div class="icon-wrapper"><i icon-name="settings"></i></div>
+              <span class="font-semibold">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar-toggle" class="toggle">
+        <i icon-name="chevron-left"></i>
+      </div>
+    </div>
+    <div class="content">
+      <div class="center-header">
+        <h1 class="header">Projects</h1>
+        <div>
+        <input type="checkbox" id="toggle-check" checked>
+        <label for="toggle-check" class="toggle-label">
+          <div class="toggle-container">
+              <div class="toggle-light-icon icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+              </div>
+              <div class="toggle-dark-icon icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+              </div>
+              <div class="toggle-circle"></div>
+          </div>
+        </label>
+      </div>
+    </div>
+    </div>
+    <div class="right-side-div">
+
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script>
+  lucide.createIcons()
+</script>
+<script src="./JS/script.js"></script>
+
+</body>
+</html>
